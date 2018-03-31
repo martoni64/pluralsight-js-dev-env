@@ -10,8 +10,10 @@ install:
 
 # Post-install tests
 test_scripts:
+   #Output useful info for debugging
    - node --version
    - npm --version
+   #Run tests
    - npm test
 
 # Don't actually build
